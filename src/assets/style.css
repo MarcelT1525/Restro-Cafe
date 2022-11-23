@@ -91,6 +91,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 10px;
+  padding:10px;
 }
 .card {
     width: 90%;
@@ -99,6 +100,10 @@ body {
 
 img.pic {
     width: 100%;
+    height: 350px;
+    object-fit: cover;
+    /* padding: 10px; */
+    border-radius: 9px;
 }
 .review_link {
     display: flex;
